@@ -1,0 +1,30 @@
+.banner_style {
+  display: block;
+  position: relative;
+}
+
+.banner_style img {
+  width: 100%;
+  max-height: 900px;
+  object-position: 0% 10%;
+  object-fit: cover;
+}
+
+.overlay__div {
+  position: absolute;
+  margin-top: -500px;
+  font-size: 22px;
+  padding-left: 3rem;
+  width: 25%;
+  color: white;
+}
+
+.btn__banner {
+  padding: 0.8rem;
+  font-size: 22px;
+  margin-right: 1rem;
+  width: 20%;
+  color: white;
+  background-color: rgb(41, 41, 41);
+  border: none;
+}
